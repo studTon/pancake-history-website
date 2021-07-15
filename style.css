@@ -1,0 +1,38 @@
+/******************
+*Imported fonts
+*******************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+/*******************************************************************************************************************************/
+body{
+	background-color: #F5AC46;
+}
+
+header{
+	width: 720px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
+	font-size: 48pt;
+}
+p {
+    color: #000000;
+}
+
+img{
+	width: 720px;
+	height: auto;
+	margin-left: 200px;
+	margin-right: 200px;
+	border: 5px solid black;
+}
+
+.content{
+	
+	background-color: #A86F20;
+	height: 480px;
+	width: 720px;
+	color: white;
+	font-size: 36pt;
+	margin: 200px;
+	border: 5px solid black;
+}
