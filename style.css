@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
 /*******************************************************************************************************************************/
 body{
-	background-color: #F5AC46;
+	background-color: #a86f20;
+	font-family: "Helvetica";
+	color: white;
 }
 
 header{
@@ -14,8 +16,9 @@ header{
 	text-align: center;
 	font-size: 48pt;
 }
-p {
-    color: #000000;
+
+h1{
+	text-align: center;
 }
 
 img{
@@ -23,16 +26,32 @@ img{
 	height: auto;
 	margin-left: 200px;
 	margin-right: 200px;
-	border: 5px solid black;
+	border: 5px solid white;
 }
 
 .content{
 	
-	background-color: #A86F20;
+	background-color: #0f6ea8;
 	height: 480px;
 	width: 720px;
+	padding: 25px;
 	color: white;
 	font-size: 36pt;
 	margin: 200px;
-	border: 5px solid black;
+	border: 5px solid white;
+	text-justify:inter-character;
+	text-align: justify;
+}
+
+article{
+	background-color: #f5ac47;
+	padding: 50px 300px 50px 50px;
+	width: 900px;
+	margin: auto;
+	align-content: center
+}
+
+section{
+	margin-left: auto;
+	margin-right: auto;
 }
