@@ -5,20 +5,25 @@
 /*******************************************************************************************************************************/
 body{
 	background-color: #a86f20;
+	background-image: url(images/make-a-pancake.jpg);
 	font-family: "Helvetica";
 	color: white;
 }
 
 header{
 	width: 720px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	font-size: 48pt;
 }
 
 h1{
 	text-align: center;
+	font-weight: 100;
+	background-color: #0f6ea8;
+	border: 5px solid #47b2f5;
+	border-radius: 15px;
 }
 
 img{
@@ -27,6 +32,7 @@ img{
 	margin-left: 200px;
 	margin-right: 200px;
 	border: 5px solid white;
+	border-radius: 15px 5px;
 }
 
 .content{
@@ -41,6 +47,7 @@ img{
 	border: 5px solid white;
 	text-justify:inter-character;
 	text-align: justify;
+	border-radius: 15px 5px;
 }
 
 article{
@@ -54,4 +61,8 @@ article{
 section{
 	margin-left: auto;
 	margin-right: auto;
+}
+
+a{
+	color: #0F6EA8;
 }
